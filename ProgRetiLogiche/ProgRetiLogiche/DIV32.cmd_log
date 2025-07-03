@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "/home/ise/ProgRetiLogiche/DIV32.xst" -ofn "/home/ise/ProgRetiLogiche/DIV32.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45t-fgg484-3 DIV32.ngc DIV32.ngd  
+map -intstyle ise -p xc6slx45t-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DIV32_map.ncd DIV32.ngd DIV32.pcf 
+par -w -intstyle ise -ol high -mt off DIV32_map.ncd DIV32.ncd DIV32.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DIV32.twx DIV32.ncd -o DIV32.twr DIV32.pcf 
+netgen -intstyle ise -s 3  -pcf DIV32.pcf -rpw 100 -tpw 0 -ar Structure -tm DIV32 -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim DIV32.ncd DIV32_timesim.vhd 

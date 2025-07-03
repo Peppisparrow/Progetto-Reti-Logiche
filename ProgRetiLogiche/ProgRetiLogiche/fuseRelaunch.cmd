@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/ise/ProgRetiLogiche/DIV32_TEST2_isim_par.exe" -prj "/home/ise/ProgRetiLogiche/DIV32_TEST2_par.prj" "work.DIV32_TEST2" 

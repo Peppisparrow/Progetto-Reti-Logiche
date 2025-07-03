@@ -1,0 +1,2 @@
+vhdl work "netgen/par/DIV32_timesim.vhd"
+vhdl work "DIV32_TEST2.vhd"

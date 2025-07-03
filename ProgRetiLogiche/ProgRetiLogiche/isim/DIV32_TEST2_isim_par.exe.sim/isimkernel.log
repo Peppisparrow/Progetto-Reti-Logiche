@@ -1,0 +1,30 @@
+Command line:
+   DIV32_TEST2_isim_par.exe
+     -simmode  gui
+     -sdfmax  /uut/=netgen/par/DIV32_timesim.sdf
+     -sdfroot  /uut
+     -simrunnum  0
+     -socket  55804
+
+Tue Jun  6 09:30:03 2023
+
+
+ Elaboration Time: 0.18 sec
+
+ Current Memory Usage: 254.005 Meg
+
+ Total Signals          : 14256
+ Total Nets             : 9494
+ Total Signal Drivers   : 8858
+ Total Blocks           : 2590
+ Total Primitive Blocks : 1401
+ Total Processes        : 8856
+ Total Traceable Variables  : 19544
+ Total Scalar Nets and Variables : 88499
+
+ Total Simulation Time: 0.82 sec
+
+ Current Memory Usage: 331.731 Meg
+
+Tue Jun  6 09:35:28 2023
+

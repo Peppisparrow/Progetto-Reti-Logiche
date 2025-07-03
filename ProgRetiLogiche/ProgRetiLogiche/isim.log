@@ -1,0 +1,18 @@
+ISim log file
+Running: /home/ise/ProgRetiLogiche/DIV32_TEST2_isim_par.exe -intstyle ise -gui -sdfmax /uut/=netgen/par/DIV32_timesim.sdf -sdfroot /uut -tclbatch isim.cmd -wdb /home/ise/ProgRetiLogiche/DIV32_TEST2_isim_par.wdb 
+ISim P.20131013 (signature 0xfbc00daa)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+INFO: SDF backannotation was successful with SDF file netgen/par/DIV32_timesim.sdf, for root module /uut/.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run 5000 ns
+# exit 0
